@@ -1,7 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 :root {
   --box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+#root {
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.48);
+  padding: 15px;
+  border-radius: 49.1022px;
+  position: absolute;
+  background-color: #fff;
 }
 
 * {
@@ -10,13 +18,15 @@
 
 body {
   background-color: #f7f7f7;
+  background-image: url(/public/bgimg.png);
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
   margin: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .container {
@@ -42,7 +52,8 @@ h4 {
 
 .inc-exp-container {
   background-color: #fff;
-  box-shadow: var(--box-shadow);
+  box-shadow: 3.60444px 3.60444px 3.60444px rgba(0, 0, 0, 0.64);
+  border-radius: 39.6489px;
   padding: 20px;
   display: flex;
   justify-content: space-between;
@@ -89,15 +100,16 @@ input[type='number'] {
 
 .btn {
   cursor: pointer;
-  background-color: #9c88ff;
+  background-color: #00C2FF;
   box-shadow: var(--box-shadow);
+  border-radius: 31.0883px;
   color: #fff;
   border: 0;
   display: block;
   font-size: 16px;
   margin: 10px 0 30px;
-  padding: 10px;
-  width: 100%;
+  width: 150px;
+  height: 50px;
 }
 
 .btn:focus,
