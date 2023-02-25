@@ -28,4 +28,4 @@ Expense Tracker web app allows user to track their expenses at one place.
 - Css
 - Html
 
-This website is on Netlify.
+This website is hosted on Netlify.
