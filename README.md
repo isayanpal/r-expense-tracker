@@ -13,6 +13,15 @@ Expense Tracker web app allows user to track their expenses at one place.
 - `npm i` to install dependencies
 - `npm start` to start 
 
+## Problem Statement
+- Nowadays users couldn't keep up where they spend their expenses and cannot keep a track of their transactions.
+
+## Domain 
+- Fintech 💸
+
+## Proposed Solution
+- Our web app Expense Tracker is a personal finance management app that allows users to track their expenses and manage their finances in one place.
+
 ## Techstack Used
 - Framework: React
 - Javascript
